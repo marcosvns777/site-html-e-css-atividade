@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+h1{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.inicio{
+    background-color: rgba(240, 248, 255, 0.733);
+    height: 120px;
+}
+body{
+     font-family: "Oswald", sans-serif;
+     background-image: url("fundo1.png");
+  background-size: cover;
+  background-position: center;
+}
+.zoro{
+     width: 420px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid black;
+  margin-top: 30px;
+  margin-left: 120px;
+  transition: 0.3s;
+}
+.zoro:hover {
+ transform: scale(1.2);
+}
+.sanji {
+    width: 420px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid black;
+   margin-top: 30px;
+   margin-left: 770px;
+    transition: 0.3s;
+}
+.sanji:hover {
+  transform: scale(1.2);
+}
+.text1{
+    font-size: 60px;
+    margin-left: 120px;
+    color: azure;
+}
+.text2{
+    font-size: 60px;
+    margin-left: 120px;
+    color: azure;
+}
+.caixa{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caixa h2:last-child {
+    margin-right: 50px;
+ }
+
+ .jg{
+    width: 460px;
+  height: auto;
+   margin-left: 120px;
+ }
+ .jg2{
+    width: 460px;
+  height: auto;
+   margin-left: 770px;
+ }
+li{
+    font-size: 30px;
+     margin-left: 120px;
+     color: bisque;
+ }
+ .escrita{
+     display: flex;
+  gap: 900px;
+ }
+ li:nth-child(1):hover {
+  color: red;
+}
+
+li:nth-child(2):hover {
+  color: blue;
+}
+
+li:nth-child(3):hover {
+  color: green;
+}
